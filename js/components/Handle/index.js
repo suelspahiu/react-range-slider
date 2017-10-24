@@ -191,7 +191,7 @@ export default class Handle extends Component {
         event.preventDefault();
         this.props.handleMove(-1);
         this.props.afterChange();
-      } else if (event.key === 'ArrowUp' || event.key === 'ArrowRight') {
+      } else if (event.key === 'ArroUp' || event.key === 'ArrowRight') {
         event.stopPropagation();
         event.preventDefault();
         this.props.handleMove(1);
