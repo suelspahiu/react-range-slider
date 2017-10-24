@@ -10,7 +10,7 @@ module.exports = {
     './js/index'
   ],
   output: {
-    path: path.join(__dirname, '../lib'),
+    path: path.join(__diname, '../lib'),
     filename: 'index.js',
     libraryTarget: 'commonjs2',
   },
